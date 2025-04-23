@@ -1,0 +1,11 @@
+/*--------------------Style for paragraph---------------*/
+
+.para {
+    background-color: gray;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
