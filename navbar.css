@@ -1,0 +1,19 @@
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    background-color: orchid;
+    color: black;
+    float: left;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.navbar li a:hover{
+    background-color: midnightblue;
+    color: white;
+    transition: 0.5s;
+}
