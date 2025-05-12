@@ -1,0 +1,22 @@
+
+/*-------------------------------Background new properties------------------------------------*/
+
+.background{
+    background-image: url('images/cricket.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+}
+.top-background{
+    background-color: lightgreen;
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+.bottom-background{
+    background-color: lightgray;
+    width: 100%;
+    height: 250px;
+    float: left;
+}
