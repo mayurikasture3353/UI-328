@@ -1,0 +1,18 @@
+.textP{
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    /* border: 1px solid red; */
+    /* border: 1px dotted red; */
+    border: 1px dashed blue;
+    /* border-left: 2px solid green; */
+    /* border-right: 2px solid yellow; */
+    border-top: 3px dotted orange;
+    /* border-bottom: 5px solid violet; */
+    line-height: 26px;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+}
