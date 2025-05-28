@@ -14,7 +14,7 @@
 .B{
    background-color: #ffffff;
    width: 80%;
-   height: 100px;
+   height: 500px;
    float: left; 
 }
 .C{
@@ -33,4 +33,47 @@
     position: absolute;
     top: 40px;
     right: 90px;
+}
+.navigation li{
+   list-style: none;
+}
+.navigation li a{
+   text-decoration: none;
+   background-color: #ffffff;
+   color: #000;
+   float: left;
+   padding: 10px;
+}
+.navigation li a:hover{
+   color: #3db166;
+}
+.dropdownBtn{
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dropdown .dropdownMenu a{
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px;
+    display: block;
+    float: none;
+    border-bottom: 1px solid #333333;
+}
+.dropdownMenu a:hover{
+    color: #3db166;
+}
+.dropdownMenu{
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: 10px;
+}
+.dropdown:hover .dropdownMenu{
+    display: block;
+}
+.dropdown {
+    position: relative; /* ✅ FIX: Add this line */
 }
