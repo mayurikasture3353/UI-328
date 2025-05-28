@@ -1,0 +1,36 @@
+.A{
+   background-color: #fff;
+   width: 20%;
+   height: 100px;
+   float: left; 
+}
+.logo-section img{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.B{
+   background-color: #ffffff;
+   width: 80%;
+   height: 100px;
+   float: left; 
+}
+.C{
+   background-color: #ffffff;
+   width: 20%;
+   height: 100px;
+   float: left; 
+}
+.registerBtn{
+    background-color: #192f59;
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}

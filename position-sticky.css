@@ -1,0 +1,7 @@
+.sticky{
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 10px;
+}

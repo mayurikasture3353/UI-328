@@ -1,0 +1,501 @@
+
+/*----------------------1st row-------------------------*/
+
+.a{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.b{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.c{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.d{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.e{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.f{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.g{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.h{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.i{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.j{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+/*----------------------2nd row-------------------------*/
+
+.k{
+    background-color: hotpink;
+    width: 20%;
+    float: left;
+    height: 80px; 
+}
+
+.l{
+    background-color: #7771c9;
+    width: 60%;
+    float: left;
+    height: 80px; 
+}
+
+.m{
+    background-color: chartreuse;
+    width: 20%;
+    float: left;
+    height: 80px; 
+}
+
+/*----------------------3rd row-------------------------*/
+
+.n{
+    background-color: black;
+    height: 400px;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.n1{
+    background-color: red;
+    height: 100px;
+    width: 80%;
+    float: left;
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+}
+
+.o{
+    background-color: yellowgreen;
+    height: 400px;
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.o1{
+    background-color: cyan;
+    height: 330px;
+    width: 40%;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+.o11{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o111{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o112{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o113{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.o12{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+}
+
+.o13{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o131{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o132{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o133{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.o14{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+}
+
+.o15{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o151{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o152{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o153{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.o2{
+    background-color: white;
+    height: 330px;
+    width: 40%;
+    float: left;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.o21{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o211{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o212{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o213{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.o22{
+    background-color: red;
+    width: 20%;
+    height: 330px;
+    float: left;
+}
+.o23{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o231{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o232{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o233{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.o24{
+    background-color: red;
+    width: 20%;
+    height: 330px;
+    float: left;
+}
+.o25{
+    background-color: black;
+    width: 20%;
+    height: 330px;
+    float: left;
+    position: relative;
+}
+
+.o251{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+.o252{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.o253{
+    background-color: yellow;
+    width: 70%;
+    height: 90px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.p{
+    background-color: blueviolet;
+    height: 400px;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.p1{
+    background-color: aquamarine;
+    height: 100px;
+    width: 80%;
+    float: left;
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+}
+
+/*----------------------4th row-------------------------*/
+
+.k1{
+    background-color: hotpink;
+    width: 20%;
+    float: left;
+    height: 80px; 
+}
+
+.l1{
+    background-color: #7771c9;
+    width: 60%;
+    float: left;
+    height: 80px; 
+}
+
+.m1{
+    background-color: chartreuse;
+    width: 20%;
+    float: left;
+    height: 80px; 
+}
+
+
+/*----------------------5th row-------------------------*/
+
+.a1{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.b1{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.c1{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.d1{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.e1{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.f1{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.g1{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.h1{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+.i1{
+    background-color: gray;
+    width: 10%;
+    float: left;
+    height: 80px;
+}
+
+.j1{
+    background-color: orange;
+    width: 10%;
+    float: left;
+    height: 80px;
+}

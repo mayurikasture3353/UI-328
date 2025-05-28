@@ -1,0 +1,935 @@
+
+/*--------------1st row-----------------*/
+
+.a{
+    background-color: gray;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.a1{
+    background-color: green;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.a11{
+    background-color: pink;
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.a12{
+    background-color: purple;
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.a2{
+    background-color: pink;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.a21{
+    background-color: purple;
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.a22{
+    background-color: pink;
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.b{
+    background-color: blue;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.b1{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.b11{
+    background-color: aqua;
+    width: 90%;
+    height: 260px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.b12{
+    background-color: black;
+    width: 80%;
+    height: 200px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.b13{
+    background-color: aqua;
+    width: 85%;
+    height: 160px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.b14{
+    background-color: black;
+    width: 70%;
+    height: 100px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.b15{
+    background-color: aqua;
+    width: 75%;
+    height: 60px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.c{
+    background-color: red;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.c1{
+    background-color: greenyellow;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.c11{
+    background-color: blue;
+    width: 90%;
+    height: 260px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.c12{
+    background-color: greenyellow;
+    width: 80%;
+    height: 200px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.c13{
+    background-color: blue;
+    width: 85%;
+    height: 160px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.c14{
+    background-color: greenyellow;
+    width: 70%;
+    height: 100px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.c15{
+    background-color: blue;
+    width: 75%;
+    height: 60px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.d{
+    background-color: orange;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.d1{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    float: left;  
+}
+
+.d11{
+    background-color: black;
+    width: 25%;
+    height: 300px;
+    float: left;  
+    position: relative;
+}
+
+.d111{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    /* margin: 10px; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.d112{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.d113{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+}
+
+.d114{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    right: 13px;
+}
+
+.d12{
+    background-color: lightcoral;
+    width: 25%;
+    height: 300px;
+    float: left;  
+    position: relative;
+}
+
+.d121{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.d122{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+   position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.d123{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+}
+
+.d124{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    right: 13px;
+}
+
+.d13{
+    background-color: black;
+    width: 25%;
+    height: 300px;
+    float: left;  
+    position: relative;
+}
+
+.d131{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.d132{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.d133{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+}
+
+.d134{
+    background-color: yellow;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    right: 13px;
+}
+
+.d14{
+    background-color: lightcoral;
+    width: 25%;
+    height: 300px;
+    float: left; 
+    position: relative; 
+}
+
+.d141{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.d142{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.d143{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+}
+
+.d144{
+    background-color: black;
+    width: 70%;
+    height: 52px;
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    right: 13px;
+}
+
+/*------------------  2nd row --------------------------*/
+
+.e{
+    background-color: red;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.e1{
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.e2{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.e3{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.e4{
+    background-color: green;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.e5{
+    background-color: pink;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.f{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.f1{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.f11{
+    background-color: green;
+    width: 50%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+.f111{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.f12{
+    background-color: orange;
+    width: 50%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+.f121{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.f2{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.f21{
+    background-color: orange;
+    width: 50%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.f211{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.f22{
+    background-color: green;
+    width: 50%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+.f221{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.g{
+    background-color: gray;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+
+.g11{
+    background-color: orange;
+    width: 25%;
+    height: 260px;
+    float: left;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.g12{
+    background-color: orange;
+    width: 25%;
+    height: 260px;
+    float: left;
+    bottom: 20px;
+    position: absolute;
+    left: 35%;
+}
+
+.g13{
+    background-color: orange;
+    width: 25%;
+    height: 260px;
+    float: left;
+   top: 20px;
+    position: absolute;
+    left: 65%;
+}
+
+
+.h{
+    background-color: orange;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+.h11{
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.h111{
+    background-color: pink;
+    width: 90%;
+    height: 60px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.h12{
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.h121{
+    background-color: pink;
+    width: 90%;
+    height: 60px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.h13{
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.h131{
+    background-color: pink;
+    width: 90%;
+    height: 60px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+/*----------------------3rd row-----------------------------------*/
+
+.i{
+    background-color: blue;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.i1{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.i11{
+    background-color: purple;
+    width: 90%;
+    height: 260px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+.i12{
+    background-color: gray;
+    width: 80%;
+    height: 200px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.i13{
+    background-color: purple;
+    width: 85%;
+    height: 160px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.i14{
+    background-color: gray;
+    width: 70%;
+    height: 100px;
+    float: left;
+    /* margin: 30px; */
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.i15{
+    background-color: purple;
+    width: 75%;
+    height: 60px;
+    float: left;
+    /* margin: 20px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.j{
+    background-color: cadetblue;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.j1{
+    background-color: violet;
+    width: 80%;
+    height: 220px;
+    float: left;
+    bottom: 35px;
+    position: absolute;
+    left: 30px;
+}
+
+.k{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.k1{
+    width: 100%;
+    height: 75px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.k11{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k12{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k13{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k14{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k2{
+    width: 100%;
+    height: 75px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.k21{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k22{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k23{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k24{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k3{
+    width: 100%;
+    height: 75px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.k31{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k32{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k33{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k34{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k4{
+    width: 100%;
+    height: 75px;
+    background-color: lightgreen;
+    float: left;
+}
+
+.k41{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k42{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+
+.k43{
+    width: 25%;
+    height: 75px;
+    background-color: red;
+    float: left;
+}
+
+.k44{
+    width: 25%;
+    height: 75px;
+    background-color: black;
+    float: left;
+}
+.l{
+    background-color: lightgreen;
+    width: 25%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.l1{
+    background-color: black;
+    width: 95%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+.l2{
+    background-color: blue;
+    width: 90%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.l3{
+    background-color: green;
+    width: 85%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.l4{
+    background-color: red;
+    width: 80%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+.l5{
+    background-color: purple;
+    width: 75%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+
+.l6{
+    background-color: black;
+    width: 70%;
+    height: 50px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}

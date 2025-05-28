@@ -1,0 +1,29 @@
+.A{
+    background-color: #000000;
+    width: 50%;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+.A1{
+    background-color: #f67890;
+    width: 90%;
+    height: 70px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.A11{
+    background-color: #aae7bf;
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.B{
+    background-color: #228691;
+    width: 50%;
+    height: 100px;
+    float: left;
+}
