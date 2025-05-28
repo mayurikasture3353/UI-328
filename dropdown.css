@@ -1,0 +1,25 @@
+.dropdownBtn{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dropdownMenu a{
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+.dropdownMenu a:hover{
+    background-color: lightblue;
+}
+.dropdownMenu{
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdownMenu{
+    display: block;
+}
