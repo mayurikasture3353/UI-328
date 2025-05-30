@@ -1,0 +1,8 @@
+.overflow{
+    border: 5px solid green;
+    height: 300px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    overflow-x: scroll;
+}
