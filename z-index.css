@@ -1,0 +1,21 @@
+.image-container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.image-container img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.caption{
+    position: absolute;
+    top: 165px;
+    left: 20px;
+    right: 0;
+    text-align: center;
+}
+.caption h2{
+    color: #fff8dc; /* Light gold / ivory */
+    text-shadow: 2px 2px 4px #000000; /* Dark shadow for contrast */
+}
