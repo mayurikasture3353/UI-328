@@ -271,7 +271,7 @@ body {
 }
 
 .portfolioSection .image-wrapper {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .middlePort img:hover {
