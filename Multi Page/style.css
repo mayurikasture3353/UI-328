@@ -1,0 +1,169 @@
+/*--------------------- Header Section ------------------*/
+.menuSection {
+    background-color: #fff ;
+    height: 80px;
+    width: 100%;
+    float: left;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0px;
+}
+.logoSection {
+    background-color: #fff ;
+    height: 80px;
+    width: 25%;
+    float: left;
+}
+.logoSection img{
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+.navbarSection {
+    background-color: #fff;
+    height: 80px;
+    width: 75%;
+    float: left;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    float: left;
+}
+/*--------------------- Home Section ------------------*/
+.homeSection {
+    background-color: #5499c7;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.homeSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- About Section ------------------*/
+.aboutSection {
+    background-color: #717d7e ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.aboutSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Services Section ------------------*/
+.servicesSection {
+    background-color: #a569bd ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.servicesSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Programs Section ------------------*/
+.programSection {
+    background-color: #5d6d7e;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.programSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Portfolio Section ------------------*/
+.portfolioSection {
+    background-color: #e59866 ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.portfolioSection h1 {
+    text-align: center;
+    color: #000;
+}
+/*--------------------- Products Section ------------------*/
+.productSection {
+    background-color: #45b39d;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.productSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Gallery Section ------------------*/
+.gallerySection {
+    background-color: #7b241c ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.gallerySection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Reviews Section ------------------*/
+.reviewsSection {
+    background-color: #9FE2BF;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.reviewsSection h1 {
+    text-align: center;
+    color: #000;
+}
+/*--------------------- Testimonials Section ------------------*/
+.testimonialsSection {
+    background-color: #DE3163;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.testimonialsSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Admissions Section ------------------*/
+.admissionsSection {
+    background-color: #979a9a ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.admissionsSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Contact Section ------------------*/
+.contactSection {
+    background-color: darkblue;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.contactSection h1 {
+    text-align: center;
+    color: #fff;
+}

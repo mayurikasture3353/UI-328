@@ -1,0 +1,246 @@
+/*--------------------- Header Section ------------------*/
+.dashboard{
+    background-color: white;
+    width: 100%;
+    height: 650px;
+    float: left;
+}
+.leftSection{
+    background-color: #f7f7fa;
+    width: 15%;
+    height: 650px;
+    float: left;
+}
+.rightSection{
+    background-color: yellow;
+    width: 85%;
+    height: 650px;
+    float: left;
+}
+.leftSide{
+    background-color: white;
+    height: 80px;
+    width: 70%;
+    float: left;
+}
+.leftSide img{
+    margin: 20px;
+}
+.rightSide{
+    background-color: white;
+    height: 80px;
+    width: 30%;
+    float: left;
+}
+/*  */
+.dropdownBtn{
+    /* background-color: green;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10px; */
+    cursor: pointer;
+}
+.dropdownMenu a{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+.dropdownMenu a:hover{
+    color: #FFBC53;
+}
+.dropdownMenu{
+    position: absolute;
+    display: none;
+   right: 20px;
+    width: 12%;
+    text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.dropdown:hover .dropdownMenu{
+    display: block;
+}
+/*  */
+.rightSide img{
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.logoSection {
+    background-color: #f7f7fa ;
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.logoSection img{
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+.navbarSection {
+    background-color: #f7f7fa;
+    height: 570px;
+    width: 100%;
+    float: left;
+}
+
+.leftimg{
+ background-color: white;
+ width: 10%;
+ height: 30px;
+ float: left;
+}
+.righttext{
+background-color: white;
+ width: 90%;
+ height: 30px;
+ float: left;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    padding: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*--------------------- Home Section ------------------*/
+.homeSection {
+    background-color: #5499c7;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.homeSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- About Section ------------------*/
+.aboutSection {
+    background-color: #717d7e ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.aboutSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Services Section ------------------*/
+.servicesSection {
+    background-color: #a569bd ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.servicesSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Programs Section ------------------*/
+.programSection {
+    background-color: #5d6d7e;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.programSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Portfolio Section ------------------*/
+.portfolioSection {
+    background-color: #e59866 ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.portfolioSection h1 {
+    text-align: center;
+    color: #000;
+}
+/*--------------------- Products Section ------------------*/
+.productSection {
+    background-color: #45b39d;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.productSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Gallery Section ------------------*/
+.gallerySection {
+    background-color: #7b241c ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.gallerySection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Reviews Section ------------------*/
+.reviewsSection {
+    background-color: #9FE2BF;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.reviewsSection h1 {
+    text-align: center;
+    color: #000;
+}
+/*--------------------- Testimonials Section ------------------*/
+.testimonialsSection {
+    background-color: #DE3163;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.testimonialsSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Admissions Section ------------------*/
+.admissionsSection {
+    background-color: #979a9a ;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.admissionsSection h1 {
+    text-align: center;
+    color: #fff;
+}
+/*--------------------- Contact Section ------------------*/
+.contactSection {
+    background-color: darkblue;
+    height: 550px;
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.contactSection h1 {
+    text-align: center;
+    color: #fff;
+}

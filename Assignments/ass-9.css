@@ -1,0 +1,1135 @@
+@font-face {
+    font-family: 'UbuntuSans-Regular';
+    src: url('fonts/UbuntuSans-Regular.woff2') format('woff2'),
+        url('fonts/UbuntuSans-Regular.woff') format('woff');
+}
+
+body {
+    font-family: 'UbuntuSans-Regular';
+    letter-spacing: .5px;
+}
+
+/*------------------------------------ Top Header Section ---------------------------------------*/
+.topHeader {
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.topLeft {
+    background-color: #333c49;
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.topLeft p {
+    padding-left: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.topRight {
+    background-color: #333c49;
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.topNavbar {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.topNavbar li {
+    display: inline-block;
+}
+
+.topNavbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.topNavbar a:hover {
+    color: #1DA1F2;
+}
+
+/*------------------------------------ Header Section ------------------------------*/
+
+
+.headerSection {
+    width: 100%;
+    background-color: green;
+    height: 70px;
+    float: left;
+    position: sticky;
+    top: 0px;
+    opacity: 1;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+    z-index: 9999;
+}
+
+.logoSection {
+    width: 20%;
+    background-color: white;
+    height: 70px;
+    float: left;
+}
+
+.navbarSection {
+    width: 60%;
+    background-color: white;
+    height: 70px;
+    float: left;
+}
+
+.buttonSection {
+    width: 20%;
+    background-color: white;
+    height: 70px;
+    float: left;
+}
+
+.logoSection img {
+    width: 120px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.Navbar {
+    list-style: none;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #696969;
+    float: left;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Navbar a:hover {
+    color: #55A8FD;
+}
+
+.buttonSection a {
+    text-decoration: none;
+    padding: 10px 25px 10px;
+    background-color: #55A8FD;
+    color: white;
+    border: 1px solid #55A8FD;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.buttonSection a:hover {
+    background-color: white;
+    color: #55A8FD;
+}
+
+.buttonSection .get-in-touch {
+    margin-top: 25px;
+}
+
+/*------------------------------------ Banner Section ---------------------------------------*/
+.bannerSection img {
+    width: 100%;
+}
+
+/*------------------------------------ Services Section ---------------------------------------*/
+.servicesSection {
+    width: 100%;
+    background-color: transparent;
+    height: 430px;
+    float: left;
+    color: white;
+}
+
+.serviceLeft {
+    width: 50%;
+    background-image: url("images/service-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 432px;
+    float: left;
+}
+
+.serviceCaption {
+    padding: 50px 120px;
+}
+
+.serviceCaption h5 {
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 18px;
+}
+
+.serviceCaption h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin: 0px;
+    margin-bottom: 18px;
+}
+
+.serviceCaption ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.serviceCaption ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.serviceCaption ul li img {
+    margin-right: 5px;
+}
+
+.serviceRight {
+    width: 50%;
+    background-color: lightgreen;
+    height: 400px;
+    float: left;
+}
+
+.serviceRight img {
+    width: 100%;
+}
+
+/*------------------------------------ Portfolio Section ---------------------------------------*/
+.portfolioSection {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.leftPort {
+    background-color: white;
+    height: 800px;
+    width: 33.33%;
+    float: left;
+}
+
+.leftOne {
+    background-color: white;
+    height: 380px;
+    width: 90%;
+    margin: 20px;
+    float: left;
+}
+
+.leftTwo {
+    background-color: white;
+    height: 380px;
+    width: 90%;
+    margin: 20px;
+    float: left;
+}
+
+.leftOne img:hover,
+.leftTwo img:hover,
+.rightOne img:hover,
+.rightTwo img:hover {
+    width: 410px;
+    height: 410px;
+}
+
+.portfolioSection .upperSection {
+    text-align: center;
+}
+
+.upperSection ul {
+    list-style: none;
+}
+
+.upperSection ul li {
+    display: inline-block;
+}
+
+.upperSection ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.upperSection ul li a:hover {
+    color: #1DA1F2;
+}
+
+.portfolioSection .image-wrapper {
+    overflow: hidden;
+}
+
+.middlePort img:hover {
+    height: 830px;
+    width: 450px;
+
+}
+
+.middlePort {
+    background-color: white;
+    height: 800px;
+    width: 33.33%;
+    float: left;
+    margin-top: 20px;
+}
+
+.rightPort {
+    background-color: white;
+    height: 800px;
+    width: 33.33%;
+    float: left;
+}
+
+.rightOne {
+    background-color: white;
+    height: 380px;
+    width: 90%;
+    margin: 20px;
+    float: left;
+}
+
+.rightTwo {
+    background-color: white;
+    height: 380px;
+    width: 90%;
+    margin: 20px;
+    float: left;
+}
+
+.portfolioSection img {
+    width: 100%;
+}
+
+.middlePort img {
+    height: 810px;
+}
+
+/*-----------------------------About Section --------------------------------*/
+.why-choose-section {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+.k {
+    background-color: white;
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+
+.k1 {
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.k2 {
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.k3 {
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.why-choose-inner-wrapper {
+    text-align: center;
+}
+
+.why-choose-inner-wrapper h2 {
+    color: #fe4c1c;
+}
+
+.why-choose-inner-wrapper h5,
+.why-choose-inner-wrapper p {
+    margin-bottom: 0px;
+}
+
+.l {
+    background-color: white;
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+
+.m {
+    background-color: white;
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.m1 {
+    background-color: transparent;
+    width: 100%;
+    height: 280px;
+    float: left;
+    margin-top: -50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.m2 {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.n {
+    background-color: white;
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.n1 {
+    background-color: transparent;
+    width: 100%;
+    height: 280px;
+    float: left;
+    margin-top: -50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.left-why-choose {
+    padding: 50px;
+}
+
+.left-why-choose h2 {
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.left-why-choose h2 span {
+    color: #55A8FD;
+}
+
+.n2 {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.get-started {
+    margin-top: 60px;
+}
+
+.get-started a {
+    text-decoration: none;
+    padding: 15px 25px 15px;
+    background-color: #00d58c;
+    color: white;
+    border: 1px solid #00d58c;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.get-started a:hover {
+    background-color: white;
+    color: #00d58c;
+}
+
+.why-choose-wrapper {
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(173, 173, 173, 0.2)
+}
+
+.why-choose-wrapper i {
+    font-size: 48px;
+    color: #55A8FD;
+}
+
+.why-choose-section ul li {
+    padding-bottom: 12px;
+}
+
+.why-choose-wrapper h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.why-choose-wrapper p {
+    color: #696969;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*-----------------------------Counter Section --------------------------------*/
+.counterSection {
+    background-color: white;
+    width: 100%;
+    height: 220px;
+    float: left;
+    padding: 50px 0px;
+}
+
+.counterOne {
+    background-color: white;
+    width: 22%;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+}
+
+.counterTwo {
+    background-color: white;
+    width: 22%;
+    height: 200px;
+    float: left;
+}
+
+.counterThree {
+    background-color: white;
+    width: 22%;
+    height: 200px;
+    float: left;
+}
+
+.counterFour {
+    background-color: white;
+    width: 22%;
+    height: 200px;
+    float: left;
+}
+
+.counter-wrapper {
+    background-color: #55A8FD;
+    padding: 15px 20px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.counter-wrapper i {
+    text-align: right;
+    display: block;
+    color: #fff;
+    font-size: 48px;
+    opacity: 0.5;
+}
+
+.counter-wrapper h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.counter-wrapper p {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*-----------------------------Project Section --------------------------------*/
+.projectSection {
+    background-image: url("images/bg-img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/*-----------------------------Price Section --------------------------------*/
+.pricingSection {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.priceCaption {
+    text-align: center;
+}
+
+.price-wrapper h2 {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.price-wrapper p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #696969;
+}
+
+.price-wrapper h2 span {
+    font-size: 18px;
+}
+
+.priceMiddle .price-wrapper ul li i,
+.priceMiddle .price-wrapper a {
+    background-color: #00D58C;
+}
+
+.priceMiddle .price-wrapper h5 {
+    color: #00D58C;
+}
+
+.priceMiddle .price-wrapper a {
+    border-color: #00D58C;
+}
+
+.priceMiddle .price-wrapper a:hover {
+    color: #00D58C;
+}
+
+.price-wrapper h5 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #55A8FD;
+}
+
+.priceCaption p {
+    font-weight: 600;
+}
+
+.priceCaption h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price-wrapper a {
+    text-decoration: none;
+    padding: 15px 25px 15px;
+    background-color: #55A8FD;
+    color: white;
+    border: 1px solid #55A8FD;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.price-wrapper {
+    padding: 50px 40px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.price-wrapper .package {
+    margin-top: 50px;
+}
+
+.price-wrapper a:hover {
+    background-color: white;
+    color: #55A8FD;
+}
+
+.priceLeft {
+    background-color: white;
+    height: 500px;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.price-wrapper ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.price-wrapper ul li {
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #696969;
+}
+
+.price-wrapper ul li i {
+    background: #55A8FD;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.priceMiddle {
+    background-color: white;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+.priceRight {
+    background-color: white;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+/*----------------------------- Blog  Section --------------------------------*/
+.blogSection {
+    background-color: white;
+    width: 100%;
+    height: 460px;
+    float: left;
+    padding: 50px 0px;
+}
+
+.blogOne {
+    background-color: white;
+    width: 22%;
+    height: 400px;
+    float: left;
+    margin-left: 5%;
+}
+
+.blogTwo {
+    background-color: white;
+    width: 22%;
+    height: 400px;
+    float: left;
+}
+
+.blogThree {
+    background-color: white;
+    width: 22%;
+    height: 400px;
+    float: left;
+}
+
+.blogFour {
+    background-color: white;
+    width: 22%;
+    height: 400px;
+    float: left;
+}
+
+.blogSection .blog-wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blogSection .blog-wrapper .blog-caption {
+    padding: 20px;
+}
+
+.blogSection .blog-wrapper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog-caption h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.blog-caption p {
+    color: #696969;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.blog-caption a {
+    color: #696969;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.blog-wrapper:hover {
+    margin-top: 0px;
+    transition: 0.3s;
+}
+
+.article {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.article a {
+    text-decoration: none;
+    padding: 15px 40px 15px;
+    background-color: #00d58c;
+    color: white;
+    border: 1px solid #00d58c;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.article a:hover{
+    background-color: white;
+    color: #00d58c;
+}
+
+/*----------------------------- Testimonials  Section --------------------------------*/
+.testimonialSection {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+
+.testimonialOne {
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.testimonialTwo {
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    float: left;
+}
+
+.testimonialThree {
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    float: left;
+}
+
+.testimonialWrapper {
+    background: #f6f6f6;
+    padding: 60px 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.testimonialWrapper p {
+    text-align: center;
+    font-size: 15px;
+    color: #696969;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.testimonialPhoto img {
+    display: block;
+    margin: auto;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonialPhoto {
+    margin: -70px auto 0 auto;
+}
+
+.testimonialCaption {
+    text-align: center;
+}
+
+.testimonialCaption h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.testimonialCaption p {
+    font-size: 12px;
+    color: #696969;
+}
+
+/*----------------------------- Footer  Section --------------------------------*/
+.footerSection {
+    background-color: #343c49;
+    height: 350px;
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.footerSection .left {
+    background-color: transparent;
+    height: 10px;
+    width: 30%;
+    float: left;
+    margin: 30px 20px;
+}
+
+.footerSection .middle {
+    background-color: transparent;
+    height: 10px;
+    width: 30%;
+    float: left;
+    margin: 30px 20px;
+}
+
+.footerSection .right {
+    background-color: transparent;
+    height: 10px;
+    width: 30%;
+    float: left;
+    margin: 30px 20px;
+}
+
+.footerSection .left h2,
+.footerSection .middle h2,
+.footerSection .right h2 {
+    color: white;
+    margin: 0px;
+    margin-left: 12%;
+}
+
+.footerSection .middle h2 {
+    margin-left: 0;
+}
+
+.a {
+    background-color: transparent;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: 20px;
+    margin-left: 5%;
+    color: white;
+}
+
+.b {
+    background-color: transparent;
+    height: 200px;
+    width: 15%;
+    float: left;
+    margin: 20px;
+}
+
+.b ul {
+    list-style: none;
+}
+
+.b ul li {
+    margin-bottom: 10px;
+}
+
+.b ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.c ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.c ul li {
+    margin-bottom: 10px;
+}
+
+.c ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.c {
+    background-color: transparent;
+    height: 200px;
+    width: 12%;
+    float: left;
+    margin: 20px;
+}
+
+.d {
+    background-color: transparent;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: 20px;
+}
+
+.d ul {
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.d p {
+    color: white;
+    margin-left: 25%;
+    font-weight: 600;
+}
+
+.inputSection {
+    display: flex;
+    position: relative;
+    left: 80px;
+    top: 6px;
+}
+
+.inputSection input {
+    background: #ffffff63;
+    padding: 0px 15px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 24px;
+    border: unset;
+}
+
+input::placeholder {
+    color: white;
+    font-weight: 500;
+}
+
+.inputSection button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 15px;
+    background-color: #00d58c;
+    color: white;
+    border: 1px solid #00d58c;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.inputSection button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+/*----------------------------- Contact  Section --------------------------------*/
+.contactSection {
+    background-image: url("images/service-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 120px 0px;
+    float: left;
+}
+
+.contactLeft {
+    width: 60%;
+    float: left;
+}
+
+.contactRight {
+    width: 40%;
+    float: left;
+}
+
+.formSection {
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 70px;
+}
+
+.contactWrapper {
+    padding: 70px;
+    color: white;
+}
+
+.contactWrapper h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.contactWrapper h2 {
+    font-size: 36px;
+}
+
+.contactWrapper p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #495057;
+}
+
+form textarea {
+    height: 120px;
+    font-family: 'UbuntuSans-Regular';
+    color: #495057;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+form textarea {
+    border: 1px solid #d4d4d4;
+    background-color: white;
+    width: 90%;
+}
+
+.formSection h4 {
+    font-size: 24px;
+}
+
+.formSection button {
+    text-decoration: none;
+    padding: 15px 105px;
+    background-color: #00d58c;
+    color: white;
+    border: 1px solid #00d58c;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+form input{
+    color: white;
+}
+
+.formSection .send {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.formSection button:hover {
+    color: #00D58C;
+    background-color: white;
+}
