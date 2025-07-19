@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keywords</title>
+</head>
+<body>
+    <script>
+        const fun=()=>{
+            let xx = 20; // decleard in function scope
+            let xyz;
+            {
+                let xxx = 4647; // decleared in block scope
+                console.log(xx);
+                console.log(xxx);
+                
+            }
+            console.log(xx);
+            document.write(xyz=30);
+        }
+        fun();
+        // here let xxx is declared inside the block scope, so it can be accs=essible only inside the block scope.
+        // and here let xx is defined outside the block scope , but we can access this inside and outside the block scope..
+
+
+        let y= 23; //  global scope
+          const globeFun=()=>{
+            console.log(y)
+          }
+          globeFun();
+
+         const localFun=()=>{
+            let m = 567899; // local scope
+            console.log(m);
+        }
+        localFun();
+
+    </script>
+</body>
+</html>

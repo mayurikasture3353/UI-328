@@ -1,0 +1,42 @@
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8fafc;
+    }
+    h3 {
+      font-weight: 600;
+    }
+    .custom-form {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 25px;
+    }
+    label {
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: #34495e;
+    }
+    input.form-control {
+      font-size: 0.95rem;
+      border-radius: 6px;
+    }
+    .btn-primary, .btn-success {
+      font-weight: 500;
+      font-size: 0.95rem;
+      border-radius: 6px;
+    }
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card-header {
+      border-bottom: none;
+      border-radius: 12px 12px 0 0;
+    }
+    .card-body p {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+    .form-control:focus{
+      box-shadow: unset !important;
+    }

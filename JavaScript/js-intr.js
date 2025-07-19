@@ -1,0 +1,1 @@
+document.getElementById("demo").innerHTML = 'Addition of two number is: ' + (100+100)

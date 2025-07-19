@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        for(i=0; i<10; i++){
+            console.log(i);
+        } // couned loop - I know how many times I want to repeat something.
+
+        var x = 0;
+        while(x<10){ // condition is always there in while loop
+            document.write(x + "<br>" );
+            x++;
+        } //Condition-based loop - Keep doing this while something is true.
+
+       var m = 1;
+       do{
+        console.log(m);
+         m++;
+       }
+       while(m>10); // - Do first, check later - Do it at least once, then check if we need to repeat.
+      
+
+    </script>
+<!-- 
+    Here’s a clear comparison between for, while, and do...while loops in JavaScript:
+
+🔁 1. for Loop
+Best when: You know in advance how many times to loop.
+
+js
+Copy
+Edit
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+✅ Initialization, condition, and increment are all in one line
+✅ Compact and clear when working with counters
+⛔ May be less readable if logic is complex
+
+🔁 2. while Loop
+Best when: You don't know how many times to loop (condition-based).
+
+js
+Copy
+Edit
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+✅ More flexible, good when loop count is unknown
+⛔ Risk of infinite loop if condition is never false
+⛔ Initialization and increment must be handled manually
+
+🔁 3. do...while Loop
+Best when: You want the loop to run at least once, even if the condition is false.
+
+js
+Copy
+Edit
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+✅ Always executes at least one time, even if the condition is false
+⛔ Can be tricky if you're not careful with the condition and increment
+
+✅ Summary Table
+Feature	for	while	do...while
+Condition checked	Before loop body	Before loop body	After loop body
+Executes at least once	❌ Not guaranteed	❌ Not guaranteed	✅ Always executes once
+Use when	Fixed loop count	Unknown loop count	Must run at least once
+Code style	Compact	Flexible	Slightly less common
+
+Let me know if you'd like real-world examples of when to use each one!
+
+
+
+
+
+
+
+
+🔁 1. for loop – "Counted" loop
+🧠 Think: "I know how many times I want to repeat something."
+🔹 How it works:
+You set a starting point
+
+You set a condition
+
+You increase the number every time
+
+📦 Example:
+js
+Copy
+Edit
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+💬 What it does:
+Prints:
+
+Copy
+Edit
+1
+2
+3
+4
+5
+✅ Use it when:
+You are looping a specific number of times
+
+You want everything in one line (start, condition, update)
+
+🔁 2. while loop – "Condition-based" loop
+🧠 Think: "Keep doing this while something is true."
+🔹 How it works:
+You set a condition
+
+It keeps repeating as long as that condition is true
+
+You must manually increase the counter
+
+📦 Example:
+js
+Copy
+Edit
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+💬 What it does:
+Prints:
+
+Copy
+Edit
+1
+2
+3
+4
+5
+✅ Use it when:
+You don’t know how many times it will run
+
+You're waiting for a condition to be false
+
+🔁 3. do...while loop – "Do first, check later"
+🧠 Think: "Do it at least once, then check if we need to repeat."
+🔹 How it works:
+It runs once no matter what
+
+Then checks the condition
+
+Keeps repeating if condition is true
+
+📦 Example:
+js
+Copy
+Edit
+let i = 6;
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
+💬 What it does:
+Prints:
+
+Copy
+Edit
+6
+Even though 6 <= 5 is false, it runs once first.
+
+✅ Use it when:
+You want the code to run at least once
+
+Useful in menus, login attempts, etc.
+
+🎯 Final Analogy:
+Loop Type	Analogy (Real Life) Example
+for	“I will walk 5 steps.” You know how many before starting.
+while	“I will walk until I see a shop.” You don’t know when to stop.
+do...while	“I will walk once, then decide if I’ll keep going.” -->
+
+</body>
+</html>

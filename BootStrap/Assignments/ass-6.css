@@ -1,0 +1,26 @@
+/*------------------Top header section-----------------*/
+.topHeader{
+    background-color: #333c49;
+}
+/*------------------Header section-----------------*/
+.headerSection{
+    background-color: white; 
+}
+.navbar-brand img{
+    width: 120px;
+}
+/*------------------Banner section-----------------*/
+.bannerSection{
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+/*------------------About section-----------------*/
+.aboutSection .card{
+    padding: 2.5rem 1.8rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 2px rgba(173,173,173,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

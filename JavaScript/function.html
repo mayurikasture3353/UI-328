@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+
+        // function myFun(){
+        //     document.write("Hello Everyone");
+        // }
+        //  myFun();
+
+        function sayHello(x=20, y=30){
+            document.write(x+y);
+        }
+        sayHello(40, 60); // 1st function ends here
+
+        function greet(myName){ // here myName is parameter 
+            console.log("Hello" + " " + myName);
+        }
+        greet("Mayuri"); // here - Mayuri is argument -- 2nd function ends here
+
+        function myName(){
+            document.write("Hello");
+        }
+        myName(); // 3rd function ends here
+
+        // ******************** until and unless I call the function, it will not execute
+    </script>
+
+</body>
+</html>

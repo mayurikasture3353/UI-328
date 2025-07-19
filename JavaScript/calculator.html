@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.0/lib/browser/math.min.js"></script>
+
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdf6ec;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .calculator {
+      background: #3c4f76;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .display input {
+      width: 90%;
+      padding: 15px;
+      font-size: 26px;
+      text-align: right;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 10px;
+      background: #fef9e7;
+      color: #333;
+      box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.8),
+        inset 2px 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 70px);
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .buttons button {
+      width: 70px;
+      height: 70px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      /* background: linear-gradient(to bottom, #6fa8dc, #3c78d8); */
+      background: linear-gradient(to bottom, #9ba1a7, #3c78d8);
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+      transition: 0.2s ease;
+    }
+
+    .buttons button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to bottom, #5b9bd5, #2e75b6);
+    }
+
+    .equal {
+      grid-column: span 2;
+      background: linear-gradient(to bottom, #28a745, #218838);
+    }
+
+    .equal:hover {
+      background: linear-gradient(to bottom, #218838, #1e7e34);
+    }
+
+    .special {
+      background: linear-gradient(to bottom, #f39c12, #e67e22);
+    }
+
+    .special:hover {
+      background: linear-gradient(to bottom, #e67e22, #d35400);
+    }
+
+    .delete {
+      background: linear-gradient(to bottom, #e74c3c, #c0392b);
+    }
+
+    .delete:hover {
+      background: linear-gradient(to bottom, #c0392b, #922b21);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="calculator">
+    <form name="calc">
+      <div class="display">
+        <input type="text" name="display" id="display" readonly>
+      </div>
+      <div class="buttons">
+        <button type="button" class="special" onclick="clearDisplay()">AC</button>
+        <button type="button" class="special" onclick="clearDisplay()">x</button>
+        <button type="button" onclick="appendValue('/')">/</button>
+        <button type="button">%</button>
+        <button type="button">√</button>
+
+        <button type="button" onclick="appendValue('7')">7</button>
+        <button type="button" onclick="appendValue('8')">8</button>
+        <button type="button" onclick="appendValue('9')">9</button>
+        <button type="button" onclick="appendValue('*')">*</button>
+
+        <button type="button" onclick="appendValue('4')">4</button>
+        <button type="button" onclick="appendValue('5')">5</button>
+        <button type="button" onclick="appendValue('6')">6</button>
+        <button type="button" onclick="appendValue('-')">-</button>
+
+        <button type="button" onclick="appendValue('1')">1</button>
+        <button type="button" onclick="appendValue('2')">2</button>
+        <button type="button" onclick="appendValue('3')">3</button>
+        <button type="button" onclick="appendValue('+')">+</button>
+
+        <!-- <button type="button" onclick="appendValue('00')">00</button> -->
+        <button type="button" onclick="appendValue('0')">0</button>
+        <button type="button" onclick="calculate()" class="equal">=</button>
+      </div>
+
+    </form>
+  </div>
+
+  <script>
+    const display = document.getElementById('display'); // ithe constant ya sathi ghetle ahe 
+    // coz he const variable ahe te same value or element point krte
+    // and document.getElementById('display') ya line mule ky hot ki je me value diliye ti input box dhe ghete
+  
+
+    function appendValue(value) {
+      display.value = display.value + value;// ya line cha asa arth ahe ki...
+      // jr me calculator vrti 7 press kele tr display.value yachi value 7 hoil... and te calc vrti display hoil..
+      //tyat je me jr nantr + ase add kele tr te + gheil
+      //nantr me jr 50 add kele tr te 50 gheil... 
+      // so ha code asa work krto..
+    }
+
+    function clearDisplay() {
+      display.value = '';
+    }
+
+    function calculate() {
+      display.value = math.evaluate(display.value); // ya code cha arth asa ahe ki
+      //jr suppose me 7 ghetle and tyamdhe 5 add kele .. tr tyacha jo result yeil to 12 asel. tr to result aplyala as a output milto...
+    }
+
+
+    //***************************function appendValue(value)******************* - 
+    //ithe me value navach parameter pass kel ahe jyamule me jya jya button la appendvalue add kele ahe,
+    //  ti ti value appendvalue chya aat mdhe yeil
+
+  </script>
+
+</body>
+
+</html>

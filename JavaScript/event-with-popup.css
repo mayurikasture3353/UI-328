@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f6f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #6c757d; /* muted gray */
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a6268; /* slightly darker gray */
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 6px 10px;
+    margin: 3px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #17a2b8; /* soft teal on focus */
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.3);
+}
+
+/* Table styling */
+#addTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#addTable th,
+#addTable td {
+    border: 1px solid #e1e1e1;
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+#addTable th {
+    background-color: #adb5bd; /* muted gray header */
+    color: #fff;
+}
+
+/* Flex container styling */
+#addTable {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #adb5bd; /* same muted gray as table header */
+    color: #fff;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.modal-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.btn-close {
+    filter: brightness(0) invert(1); /* white close icon */
+    opacity: 0.8;
+}
+.btn-close:hover {
+    opacity: 1;
+    background-color: #adb5bd !important; 
+}
+.btn-close{
+    filter: unset !important;
+}
+
+.modal-body {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    font-size: 0.95rem;
+}
+
+.modal-content {
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border: none;
+}
+
+/* Modal text highlight */
+#modalBodyContent strong {
+    color: #17a2b8; /* soft teal accent */
+}
+
+/* Optional: subtle hover effect on table row */
+#addTable tr:hover {
+    background-color: #f1f3f5;
+}
