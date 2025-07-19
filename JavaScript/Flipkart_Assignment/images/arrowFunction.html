@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+
+<body>
+    <script>
+        // function 1--
+        arrowFun = () => {
+            console.log('Hello, this is arrow function');
+        }
+        arrowFun(); // this is called arrow function
+        // function is block of code which is used to perform specific task, and it can be used repeatedly throughout the program
+
+        //function 2--
+        function anotherFun() {
+            console.log(23 + 56);
+        }
+        // anotherFun();
+        function anotherFun() {
+            console.log('Hii, this is Mayuri');
+        }
+        anotherFun();
+
+        //here, I have used two functions with the same names, 
+        // but as I call the function, it executes the last function i.e it override the first function
+
+        var m = 23;
+        var m = 56;
+        console.log(m);
+
+        // function 3--
+        z = 400; // global //
+        fun1 = () => {
+            console.log(z);
+        }
+        fun1(); //here, we are declared the value outside the function inside the function...
+
+        fun2 = () => {
+            w = 300; // local //
+        }
+        fun2();
+        console.log(w); // here, we are declared the variable locally and calling globally
+
+        fun3 = (e, s) => {
+            console.log(e - s);
+        }
+
+        fun3(3000, 40);
+        // **** e and s are parameters means, we can say they are like variables ****
+        // **** 3000 and 40 are arguments... ****
+
+        // ***** Strict Mode in JS ***** //
+
+        strictFun = () => {
+            "use strict";
+            y = 20;
+        }
+        strictFun();
+    </script>
+</body>
+
+</html>

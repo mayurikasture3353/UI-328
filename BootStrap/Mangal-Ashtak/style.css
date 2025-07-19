@@ -1,0 +1,640 @@
+/*---------------------Top Header Section-----------------------*/
+body{
+    color: #566374;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.topHeader .topContact span {
+    padding: 0 10px;
+    font-size: 14px;
+}
+.topHeader .socialLink span {
+    padding: 0 15px;
+}
+.topHeader .topContact,
+.topHeader .socialLink {
+    padding: 10px 0;
+}
+.topHeader .socialLink span{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.topHeader .topContact a i{
+    margin-right: 5px;
+}
+.topHeader .topContact a,
+.topHeader .socialLink a{
+    text-decoration: none;
+    color: #566374;
+}
+.topHeader .topContact a:hover{
+    color: #bb0659;
+}
+.topHeader .socialLink a:hover{
+    color: #23527c;
+}
+/*---------------------Header Section-----------------------*/
+.headerSectionInner{
+    background-color: #e91e63;
+}
+.headerSection img{
+    width: 250px;
+}
+.headerSection .navbar-collapse .navbar-nav .nav-link{
+    padding: 20px 20px 30px;
+    color: white;
+    position: relative;
+}
+.headerSection .navbar-collapse .navbar-nav .nav-link::after{
+    border-bottom: 1px solid white;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 20px;
+    right: 0;
+    width: 80%;
+    height: 2px;
+    opacity: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+.headerSection .navbar-collapse .navbar-nav .nav-link:hover::after{
+    opacity: 1;
+}
+/*---------------------Banner Section-----------------------*/
+.bannerSection .carousel-item img{
+    height: 470px;
+    object-fit: cover;
+}
+.bannerSection .carousel-caption h5{
+    background: rgba(0, 0, 0, 0.4);
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 42px;
+    text-shadow: 0 1px 1px #000;
+}
+.bannerSection .carousel-caption{
+    padding-bottom: 0px;
+}
+.bannerSection .carousel-control-prev, .bannerSection .carousel-control-next{
+    background-color: #e91e63;
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    opacity: 1;
+}
+/*---------------------Steps Section-----------------------*/
+.stepsSection{
+    padding: 30px 0px;
+}
+.stepsSection .card{
+    border: unset;
+}
+.stepsSection h2{
+    font-size: 35px;
+    color: #d41b54;
+    text-align: center;
+    font-weight: 600;
+}
+.stepsSection .caption{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    clear: both;
+}
+.stepsSection i{
+    background-color: #d41b54;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+}
+.stepsSection .card-title{
+    color: #bb0659;
+    font-size: 24px;
+}
+.stepsSection .card-text{
+    font-size: 18px;
+}
+/*---------------------Success Stories Section-----------------------*/
+.successStories{
+    padding: 30px 0px;
+    background-color: #f7f8fa;
+}
+.successStories .card{
+    border-radius: 0px;
+    border: 1px solid #dae2ef;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.successStories .card .card-img-top{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.successStories .card .card-body{
+    border-bottom: 1px solid #ccc;
+}
+.successStories .card .card-title{
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #677399;
+    text-transform: capitalize;
+}
+.successStories h2{
+    font-size: 35px;
+    color: #d41b54;
+    text-align: center;
+    font-weight: 600;
+}
+.successStories .caption{
+    font-size: 18px;
+    text-align: center;
+}
+.successStories .view-more a{
+    background-color: #d41b54;
+}
+.successStories .view-more a:hover{
+    background-color: #566374;
+    border-color: #566374;
+}
+/*---------------------Footer Section-----------------------*/
+.footerSection{
+    background-color: #2e2e2e;
+    color: white;
+    padding: 30px 0px;
+}
+.footerSection h2{
+    border-bottom: solid 1px #454545;
+    padding-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.footerSection p{
+    font-size: 14px;
+    color: #ccc;
+}
+.footerSection ul{
+    padding-left: 0px;
+}
+.footerSection ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footerSection ul li a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+.footerSection ul li a:hover{
+    color: #bb0659;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+/*---------------------Search title Section-----------------------*/
+.searchTitle{
+    background-color: #880e4f;
+    padding: 10px 0;
+}
+.searchTitle h1{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0px 0px 5px 0px;
+}
+/*---------------------searchOption Section-----------------------*/
+.searchOption{
+    padding: 30px 0px;
+}
+.searchOption .card{
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    height: 140px;
+}
+.searchOption .col-md-6{
+    margin-bottom: 20px;
+}
+.searchOption .card .card-title{
+    color: #666;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.searchOption .card .card-title i{
+    margin-right: 8px;
+    font-size: 14px;
+}
+.searchOption .card .card-body{
+    padding: 15px;
+}
+.searchOption .card .card-text{
+    font-size: 14px;
+}
+.searchOption a{
+    text-decoration: none;
+    color: #566374;
+}
+.searchOption a:hover{
+    color: #bb0659;
+    transition: 0.3s;
+}
+/*---------------------Membership Section-----------------------*/
+.membershipSection{
+    padding: 60px 0px;
+}
+.membershipSection .card{
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+.membershipSection .register-now{
+    padding: 20px 0px;
+    background-color: #ededed;
+    border-top: 1px solid #ccc;
+}
+.membershipSection .card .card-title{
+    padding: 20px 0px;
+    color: #28a0c5;
+    font-size: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.membershipSection .card .card-subtitle{
+    padding: 40px 0px;
+    color: #d92d5f;
+    font-size: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.membershipSection .register-now a {
+    background-color: #d41b54;
+    font-size: 14px;
+}
+.membershipSection .register-now a:hover {
+    background-color: #566374;
+    border-color: #566374;
+}
+.membershipSection .card-body{
+    padding: 20px;
+}
+.membershipSection ul{
+    padding-left: 0px;
+}
+.membershipSection ul li{
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.membershipSection ul li i{
+    color: #2596be;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+    text-shadow: 0 0 1px black;
+    font-weight: 900;
+}
+/*---------------------contactSection Section-----------------------*/
+.contactSection{
+    padding: 10px 0px 30px 0px;
+}
+.contactSection .wrapper p{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 8px;
+}
+.contactSection .wrapper span{
+    color: #566374;
+    margin-left: 30px;
+}
+.contactSection h4{
+    font-size: 20px;
+    color: #d92d5f;
+    margin-bottom: 10px;
+}
+.contactSection .wrapper{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contactSection ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.contactSection ul{
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.contactSection ul li a{
+    text-decoration: none;
+    color: #566374;
+    padding: 10px;
+}
+.contactSection .nav-tabs .nav-link{
+    color: #566374;
+}
+.contactSection .nav{
+    padding-bottom: 0px;
+}
+.contactSection .nav-tabs .nav-link.active{
+    background-color: transparent;
+    /* color: #bb0659; */
+}
+ .contactSection .nav-tabs .nav-link:hover{
+    background-color: #eee;
+    color: #bb0659;
+}
+/*---------------------registerSection Section-----------------------*/
+.registerSection{
+    background-color: #880e4f;
+    padding: 30px 0px;
+    color: white;
+}
+.registerSection select option{
+    background-color: #880e4f;
+}
+.registerSection select{
+    background: transparent url("images/dropdown_arrow_white.png") right 10px no-repeat;
+    padding: 5px 40px 5px 5px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    height: 36px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+}
+.registerSection select:focus-within{
+    outline: none;
+}
+.registerSection button{
+    margin-top: 25px;
+}
+.registerSection span{
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 620px) {
+    .registerSection select.age{
+    width: 100%;
+}
+.registerSection select{
+    margin-bottom: 20px;
+}
+}
+/*---------------------Community Search Section-----------------------*/
+.communitySearch{
+    padding: 30px 0px;
+}
+.communitySearch h2{
+    font-size: 35px;
+    color: #d41b54;
+    text-align: center;
+    font-weight: 600;
+}
+.communitySearch p{
+    font-size: 16px;
+    color: #566374;
+    font-weight: 700;
+}
+.communitySearch ul{
+    padding-left: 0px;
+}
+.communitySearch ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+.communitySearch ul li a{
+    padding-right: 10px;
+    color: #566374;
+    text-decoration: none;
+    font-size: 14px;
+}
+.communitySearch ul li a:hover{
+    color: #bb0659;
+}
+.communitySearch .links{
+    margin-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 15px;
+}
+.communitySearch ul li::after{
+    content: "|";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.communitySearch ul li:last-child:after {
+	display: none;
+}
+/*---------------------regForm Section-----------------------*/
+.regForm{
+    padding: 30px 0px;
+}
+.regForm input, .regForm select{
+    display: block;
+    padding: 10px;
+    height: 42px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.regForm .wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.regForm .wrapper input, input[type="checkbox"]{
+    width: unset;
+    margin-bottom: unset;
+}
+input[type="checkbox"]{
+    display: block;
+}
+.registrationSection{
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+}
+.registrationSection form{
+    padding: 10px 30px;
+}
+.registration h4{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0;
+    background-color: #fafafa;
+    color: #d92d5f;
+    border-bottom: solid 1px #ccc;
+}
+.regForm label{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.registrationSection button{
+    font-size: 18px;
+    background-color: #d41b54;
+}
+.registrationSection button:hover{
+    background-color: #566374;
+    border-color: #566374;
+}
+@media (max-width: 620px) {
+    .regForm .wrapper{
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+    .registrationSection{
+        margin: 0px 10px;
+    }
+    .registrationSection{
+        margin-bottom: 20px;
+    }
+    .regForm .wrapper-new{
+        flex-wrap: nowrap;
+    }
+}
+/*---------------------helpSection Section-----------------------*/
+.helpSection{
+    padding: 30px 0px;
+}
+.helpSection h2 button{
+    font-size: 24px;
+    color: #718493;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    line-height: 34px;
+}
+.helpSection .accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: #bb0659;
+    box-shadow: unset;
+}
+.helpSection .accordion-button:focus{
+    box-shadow: unset;
+}
+.helpSection .accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bb0659'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.helpSection .bottomSection{
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.helpSection .bottomSection ul{
+    padding-left: 12px;
+}
+.helpSection .bottomSection ul li{
+    list-style-type: circle;
+}
+.helpSection p, .helpSection ul li{
+    font-size: 14px;
+}
+.helpSection .accordion-flush .accordion-item:last-child{
+    border-bottom: 1px solid #eee;
+}
+/*-----------------------------------modal code---------------------------------------*/
+.modal-header{
+    background-color: #e91e63;
+    padding: 10px;
+    color: white;
+}
+.modal-dialog{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.modalSection input{
+    color: #222;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.modalSection form::placeholder{
+    color: #eee;
+    font-size: 14px;
+}
+.modalSection input[type="checkbox"]{
+    width: unset;
+    margin: unset;
+    margin-right: 10px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    font-size: 14px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    font-size: 14px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    font-size: 14px;
+}
+.modal-dialog p{
+    color: #566374;
+    font-size: 14px;
+}
+.modal-dialog p a{
+    text-decoration: none;
+    color: #337ab7;
+}
+.modal-dialog span{
+    font-size: 14px;
+}
+.notmemberyet{
+    padding: 15px;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #000;
+}
+.btn-close{
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e");
+    opacity: 1;
+}
+.btn-close:focus{
+    box-shadow: unset;
+}
+.modal-footer{
+    background-color: #e91e63;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+}
